@@ -1,0 +1,232 @@
+html {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  z-index: 1;
+  display: block;
+}
+
+.menu-content, h2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.menu-content {
+  background-color: #F6F6F6;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-top: -40px;
+  z-index: 200;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-choix {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.menu-choix h4 {
+  margin: 0;
+}
+.menu-choix p {
+  margin: 0;
+}
+
+.menu-cards {
+  border-radius: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.menu-cards p {
+  align-items: center;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: "shrikhand";
+}
+
+.text {
+  font-family: "Roboto";
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+.localisation {
+  display: flex;
+  background-color: #EAEAEA;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  padding-right: 15px;
+}
+
+.resa {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-resa {
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.text-resa {
+  color: #353535;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.btn {
+  color: white;
+  background: linear-gradient(#9356DC, #FF79DA);
+  padding: 15px;
+  border-radius: 25px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.title-fonction {
+  padding-left: 20px;
+}
+
+.number {
+  color: white;
+  background-color: #9356DC;
+  border-radius: 50%;
+  margin-left: -30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+}
+
+.fonctionnement {
+  display: flex;
+  flex-direction: column;
+}
+
+.fonction {
+  display: flex;
+  flex-direction: column;
+}
+
+.choisissez {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.composez {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.degustez {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.text-fonction {
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  padding: 20px;
+  padding-left: 10px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.backgris {
+  background-color: #F6F6F6;
+}
+
+.resto-titre {
+  padding-left: 15px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  padding: 5px;
+  margin: 15px;
+  flex: 1;
+}
+
+.card-txt {
+  padding-left: 10px;
+}
+
+img {
+  width: 100%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.backnoir {
+  background-color: #353535;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+}
+
+.logo-foot {
+  color: white;
+}
+
+.lien-icon1 {
+  display: flex;
+  align-items: center;
+}
+
+.lien-icon2 {
+  display: flex;
+  align-items: center;
+}
+
+.lien-foot {
+  padding-left: 10px;
+}
+
+.fa-solid {
+  padding: 10px;
+}/*# sourceMappingURL=styles.css.map */
