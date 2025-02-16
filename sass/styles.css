@@ -65,8 +65,8 @@ img {
   border-radius: 35px;
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-right: 60px;
-  margin-left: 60px;
+  margin-right: 70px;
+  margin-left: 70px;
   padding: 5px;
 }
 
@@ -152,12 +152,13 @@ a {
   color: white;
   background-color: #9356DC;
   border-radius: 50%;
-  margin-left: -30px;
+  margin-left: -40px;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 24px;
   height: 24px;
+  font-family: "roboto";
 }
 
 .fonctionnement {
@@ -254,4 +255,11 @@ img {
 
 .fa-solid {
   padding: 10px;
+}
+
+footer {
+  margin: 0;
+}
+footer p {
+  margin: 0;
 }/*# sourceMappingURL=styles.css.map */
