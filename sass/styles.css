@@ -23,11 +23,17 @@ img {
   display: flex;
   flex-direction: column;
 }
+.menu-content h3 {
+  padding-bottom: 5px;
+  border-bottom: solid 3px #99E2D0;
+  width: 15%;
+}
 
 .menu-choix {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  padding-bottom: 40px;
 }
 .menu-choix h4 {
   margin: 0;
@@ -43,6 +49,25 @@ img {
 }
 .menu-cards p {
   align-items: center;
+}
+.menu-cards .card-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.btn-order {
+  color: white;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#9356dc, #ff79DA);
+  border-radius: 35px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 60px;
+  margin-left: 60px;
+  padding: 5px;
 }
 
 body {
