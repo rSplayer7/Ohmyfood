@@ -2,10 +2,32 @@
 html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+.navbar-resto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding-right: 70px;
+    margin: 10px;
+    padding-top: 10px;
+    .title-nav {
+        font-family: "shrikhand";
+        margin: 0;
+    }
+}
+
 img {
     max-width: 100%;
     z-index: 1;
     display: block;
+}
+.title-heart {
+    display : flex ;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .menu-content, h2 {
@@ -29,6 +51,9 @@ img {
     }
 }
 
+h2 {
+    padding: 0;
+}
 .menu-choix {
     display:flex ;
     flex-direction: column; 
@@ -63,10 +88,7 @@ img {
     justify-content: center;
     background:linear-gradient(#9356dc, #ff79DA);
     border-radius: 35px;
-    margin-top:40px;
-    margin-bottom: 40px;
-    margin-right: 70px;
-    margin-left: 70px;
+    margin:40px 70px;
     padding: 5px;
 }
 

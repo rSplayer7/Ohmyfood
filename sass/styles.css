@@ -2,10 +2,32 @@ html {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.navbar-resto {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding-right: 70px;
+  margin: 10px;
+  padding-top: 10px;
+}
+.navbar-resto .title-nav {
+  font-family: "shrikhand";
+  margin: 0;
+}
+
 img {
   max-width: 100%;
   z-index: 1;
   display: block;
+}
+
+.title-heart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu-content, h2 {
@@ -27,6 +49,10 @@ img {
   padding-bottom: 5px;
   border-bottom: solid 3px #99E2D0;
   width: 15%;
+}
+
+h2 {
+  padding: 0;
 }
 
 .menu-choix {
@@ -63,10 +89,7 @@ img {
   justify-content: center;
   background: linear-gradient(#9356dc, #ff79DA);
   border-radius: 35px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  margin-right: 70px;
-  margin-left: 70px;
+  margin: 40px 70px;
   padding: 5px;
 }
 
@@ -211,21 +234,53 @@ a {
 .card {
   background-color: white;
   border-radius: 15px;
-  padding: 5px;
   margin: 15px;
+  margin-bottom: 30px;
   flex: 1;
+  padding-bottom: 5px;
+  position: relative;
+}
+
+.new {
+  background-color: #99E2D0;
+  color: #008766;
+  position: absolute;
+  top: 0;
+  padding: 5px;
+  margin: 10px;
+  margin-left: 200px;
+  border-radius: 5px;
+}
+
+.align-heart {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heart {
+  padding: 10px;
+  margin-top: 20px;
+  height: 21px;
 }
 
 .card-txt {
   padding-left: 10px;
 }
+.card-txt p {
+  margin-top: 0px;
+}
+.card-txt h3 {
+  margin-bottom: 2px;
+}
 
-img {
+.img-card {
   width: 100%;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
+  height: 200px;
 }
 
 .backnoir {
@@ -235,22 +290,25 @@ img {
   margin: 0px;
 }
 
+.title-footer {
+  font-size: 27px;
+  font-family: "shrikhand";
+}
+
 .logo-foot {
   color: white;
 }
 
-.lien-icon1 {
-  display: flex;
-  align-items: center;
-}
-
-.lien-icon2 {
+.lien-icon {
   display: flex;
   align-items: center;
 }
 
 .lien-foot {
   padding-left: 10px;
+}
+.lien-foot p {
+  padding-bottom: 10px;
 }
 
 .fa-solid {
@@ -262,4 +320,13 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+.loader {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+  background-color: #FF79DA;
 }/*# sourceMappingURL=styles.css.map */
