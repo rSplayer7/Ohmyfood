@@ -10,6 +10,7 @@ a {
     text-decoration: none;
     color: black;
 }
+
 .navbar {
     width: 100%;
     display: flex;
@@ -79,6 +80,9 @@ a {
 
 .title-fonction {
     padding-left: 20px;
+    @media (min-width: 1440px) {
+       align-items: center;
+    }
 }
 
 .number {
@@ -97,29 +101,22 @@ a {
 .fonctionnement {
     display: flex;
     flex-direction: column;
+    @media (min-width : 1440px ) {
+        display: flex;
+        justify-content: center;
+        
+}
 }
 
 .fonction {
     display: flex;
     flex-direction: column;
+    @media (min-width : 1440px ) {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;  
+    }
      
-}
-.choisissez {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.composez {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-.degustez {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 }
 
 .text-fonction {
@@ -130,14 +127,39 @@ a {
     margin: 15px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     margin-left: 25px;
+    @media (min-width : 1440px) {
+        padding-left: 110px;
+        display: flex;
+        justify-content: space-between;
+
+    }
 }
 
 .backgris {
     background-color: $lightgrey ;
 }
+
+.restaurant {
+    @media (min-width : 1440px) {
+        padding-left: 180px;
+        padding-right: 180px;
+    }
+}
+
 .resto-titre {
     padding-left: 15px;
+    padding-top: 20px;
+}
+
+.resto-choix {
+   @media (min-width: 1440px) {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 40px;
+    
+   }
 }
 
 .card {
@@ -159,17 +181,23 @@ a {
     margin: 10px;
     margin-left: 200px;
     border-radius: 5px;
+    @media (min-width: 1440px ) {
+        margin-left: 400px;
+    }
 }
+
 .align-heart {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .heart  {
     padding: 10px;
     margin-top: 20px;
     height: 21px;
 }
+
 .card-txt {
     padding-left: 10px;
     p{
@@ -193,12 +221,17 @@ a {
     color: white;
     padding: 20px;
     margin: 0px;
+    @media (min-width : 1440px) {
+        display: flex;
+        flex-direction:row-reverse ;
+    }
 }
 
 .title-footer {
     font-size: 27px;
     font-family: "shrikhand";
 }
+
 .logo-foot {
     color: white;
 }
@@ -206,12 +239,23 @@ a {
 .lien-icon {
     display: flex;
     align-items: center;
+    
 }
 
 .lien-foot {
     padding-left: 10px;
     p {
         padding-bottom: 10px;
+    }
+    @media (min-width : 1440px) {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 0;
+        p {
+           padding-bottom: 0;
+           padding-right: 10px;
+        }
     }
    
 }
@@ -225,7 +269,17 @@ footer {
     p {
         margin: 0 ;
     }
+   
 }
+.footer_lien {
+    @media (min-width : 1440px) {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
 .loader {
     width: 100vw;
     height: 100vh;
@@ -233,8 +287,4 @@ footer {
     position: sticky;
     top: 0;
     background-color: #FF79DA;
-}
-@media (min-width:1024px)
-{
-
 }

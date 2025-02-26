@@ -16,11 +16,27 @@ html {
   font-family: "shrikhand";
   margin: 0;
 }
+@media (min-width: 1440px) {
+  .navbar-resto {
+    display: flex;
+    justify-content: space-between;
+    max-width: 55%;
+    font-size: 25px;
+  }
+}
 
 img {
   max-width: 100%;
   z-index: 1;
   display: block;
+}
+@media (min-width: 1440px) {
+  img {
+    height: 383px;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .title-heart {
@@ -29,8 +45,20 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+@media (min-width: 1440px) {
+  .title-heart {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+  }
+  .title-heart .fa-heart:before {
+    content: "\f004";
+    padding-left: 35px;
+  }
+}
 
-.menu-content, h2 {
+.menu-content,
+h2 {
   padding-left: 20px;
   padding-right: 20px;
 }
@@ -49,6 +77,14 @@ img {
   padding-bottom: 5px;
   border-bottom: solid 3px #99E2D0;
   width: 15%;
+}
+@media (min-width: 1440px) {
+  .menu-content {
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
 }
 
 h2 {
@@ -82,6 +118,11 @@ h2 {
   justify-content: space-between;
   font-size: 15px;
 }
+@media (min-width: 1440px) {
+  .menu-cards {
+    padding: 20px;
+  }
+}
 
 .btn-order {
   color: white;
@@ -91,6 +132,11 @@ h2 {
   border-radius: 35px;
   margin: 40px 70px;
   padding: 5px;
+}
+@media (min-width: 1440px) {
+  .btn-order {
+    margin: 40px 200px;
+  }
 }
 
 body {
@@ -170,6 +216,11 @@ a {
 .title-fonction {
   padding-left: 20px;
 }
+@media (min-width: 1440px) {
+  .title-fonction {
+    align-items: center;
+  }
+}
 
 .number {
   color: white;
@@ -188,28 +239,23 @@ a {
   display: flex;
   flex-direction: column;
 }
+@media (min-width: 1440px) {
+  .fonctionnement {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .fonction {
   display: flex;
   flex-direction: column;
 }
-
-.choisissez {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.composez {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.degustez {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+@media (min-width: 1440px) {
+  .fonction {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
 }
 
 .text-fonction {
@@ -220,15 +266,39 @@ a {
   margin: 15px;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
   margin-left: 25px;
+}
+@media (min-width: 1440px) {
+  .text-fonction {
+    padding-left: 110px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .backgris {
   background-color: #F6F6F6;
 }
 
+@media (min-width: 1440px) {
+  .restaurant {
+    padding-left: 180px;
+    padding-right: 180px;
+  }
+}
+
 .resto-titre {
   padding-left: 15px;
+  padding-top: 20px;
+}
+
+@media (min-width: 1440px) {
+  .resto-choix {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
 }
 
 .card {
@@ -250,6 +320,11 @@ a {
   margin: 10px;
   margin-left: 200px;
   border-radius: 5px;
+}
+@media (min-width: 1440px) {
+  .new {
+    margin-left: 400px;
+  }
 }
 
 .align-heart {
@@ -289,6 +364,12 @@ a {
   padding: 20px;
   margin: 0px;
 }
+@media (min-width: 1440px) {
+  .backnoir {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
 
 .title-footer {
   font-size: 27px;
@@ -310,6 +391,18 @@ a {
 .lien-foot p {
   padding-bottom: 10px;
 }
+@media (min-width: 1440px) {
+  .lien-foot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .lien-foot p {
+    padding-bottom: 0;
+    padding-right: 10px;
+  }
+}
 
 .fa-solid {
   padding: 10px;
@@ -320,6 +413,15 @@ footer {
 }
 footer p {
   margin: 0;
+}
+
+@media (min-width: 1440px) {
+  .footer_lien {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 20px;
+  }
 }
 
 .loader {
