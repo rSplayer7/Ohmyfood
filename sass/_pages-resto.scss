@@ -54,8 +54,6 @@ img {
     }
 }
 
-
-
 .title-heart {
     display: flex;
     flex-direction: row;
@@ -89,8 +87,6 @@ h2 {
     position: relative;
     display: flex;
     flex-direction: column;
-  
-   
 
     h3 {
         padding-bottom: 5px;
@@ -105,8 +101,6 @@ h2 {
         margin-left: 200px;
 
     }
-
-     
 }
 
 h2 {
@@ -173,7 +167,7 @@ h2 {
 
         }
         
-        &:hover  .menu-check{
+        &:hover  .menu-check {
             margin-right: 0;
             
         }
@@ -233,11 +227,6 @@ h2 {
         
     }
     
-
-
-
-
-
 footer {
     margin: 0;
     p {

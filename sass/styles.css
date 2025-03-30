@@ -276,7 +276,7 @@ a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  box-shadow: #353535;
+  z-index: 2;
 }
 
 .title {
@@ -299,6 +299,7 @@ a {
   justify-content: center;
   align-items: center;
   width: 100%;
+  box-shadow: 0px 6px 9px #b0b0b0;
 }
 
 .icon {
@@ -400,7 +401,7 @@ a {
 }
 
 .container {
-  padding: 0px 15px;
+  padding: 0px 20px;
 }
 @media (min-width: 1440px) {
   .container {
@@ -520,6 +521,14 @@ a {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+@media (min-width: 1024px) {
+  .footer-lien {
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding-right: 20px;
+  }
 }
 @media (min-width: 1440px) {
   .footer-lien {
